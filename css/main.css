@@ -1,0 +1,115 @@
+ h1 {
+    font-family: Tahoma, Geneva, sans-serif;
+    color: blue;
+    text-align: left;
+  }
+
+h2 {
+    font-family: Tahoma, Geneva, sans-serif;
+    color: blue;
+    text-align: left;
+  }
+
+h3 {
+    font-family: Tahoma, Geneva, sans-serif;
+    color: blue;
+    text-align: center;
+    padding-top: 35px;
+  }
+
+h4 {
+    font-family: Tahoma, Geneva, sans-serif;
+    color: blue;
+    text-align: center;
+  }
+
+h5 {
+    font-family: Tahoma, Geneva, sans-serif;
+    color: blue;
+    text-align: left;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.column {
+    float: left;
+    width: 33,33%;
+    background-color: gray;
+    width: 300px;
+    border: 15px solid lightblue;
+    padding: 50px;
+    margin: 20px;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    } 
+  }
+
+p {
+    font-family: Tahoma, Geneva, sans-serif;
+  }
+
+.button {
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.portrait {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+  }
+
+  .works
+  {
+    float: left;
+    width: 33%;
+    padding-right: 30px;
+  }
+
+  @media screen and (max-width: 600px) {
+    .works {
+      width: 100%;
+    } 
+  }
