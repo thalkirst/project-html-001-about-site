@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
     <title>Bemutatkozás</title>
 </head>
+
 <body>
     <nav class="topnav" name="top">
         <a href="index.html">Kezdőlap</a>
@@ -23,47 +25,60 @@
             <br>
         </section>
         <section>
-            <h2>Szakmai kvalifikációk</h2>
-            <p>1996-ban érettségiztem a Nagy Lajos Gimnáziumban, informatikából és angolból is.</p>
-            <p>Nagy gamerként az angol középfokú "C" nyelvvizsgát már az érettségi előtt megszereztem.</p>
-            <p>Saját családi vállalkozásunk weboldalát is én tartom karban, az alapok megvannak ahhoz, hogy el tudjak készíteni egyszerűbb weboldalakat. </p>
-            <br>
-            <h2>Fordítás, lokalizálás</h2>
-            <p>Fordítóként is dolgozom, az alábbi eszközöket tudom használni:</p>
-            <ol>
-                <li>MemoQ</li>
-                <li>Trados</li>
-                <li>SmartCAT</li>
-                <li>és az elmaradhatatlan Microsoft Office</li>
-            </ol>
-            <br>
-            <h2>Hobbik</h2>
-            <p>Na ebből van pár, csak az érdekesség kedvéért, elég vegyes felvágott.</p>
-            <ul>
-                <li>E-commerce, még a Vatera hőskorából indulva, aukciók...</li>
-                <li>... de ma már persze saját webshoppal is.</li>
-                <li>Gamerkedés, ha van rá időm (nem lesz most úgy érzem egy darabig)</li>
-                <li>Szcientológiaellenes küzdelem (jaj)</li>
-                <li>Emberek megismerés, pszichológia.</li>
-            </ul>
-            <br>
-        </section>
-        <section>
-            <h2>Kapcsolatfelvétel</h2>
-            <p>Itt tud nekem üzenetet írni:</p>
-            <form>
-                <label for="name">Név:</label><br>
-                <input type="text" id="name" name="name" minlength="5" required><br><br>
-                <label for="email">E-mail-cím:</label><br>
-                <input type="email" id="email" name="email" required><br><br>
-                <label for="text">Üzenet:</label><br>
-                <textarea name="message" style="width:300px; height:300px;" minlength="20" required>Ide írja az üzenetet.</textarea><br><br>
-                <input type="submit" value="Submit"><br><br>
-            </form>
-        </section>
+            <article>
+                <h2>Szakmai kvalifikációk</h2>
+                <p>1996-ban érettségiztem a Nagy Lajos Gimnáziumban, informatikából és angolból is.</p>
+                <p>Nagy gamerként az angol középfokú "C" nyelvvizsgát már az érettségi előtt megszereztem.</p>
+                <p>Saját családi vállalkozásunk weboldalát is én tartom karban, az alapok megvannak ahhoz, hogy el
+                    tudjak készíteni egyszerűbb weboldalakat. </p>
+                <br>
+            </article>
+            <article>
+                <h2>Fordítás, lokalizálás</h2>
+                <p>Fordítóként is dolgozom, az alábbi eszközöket tudom használni:</p>
+                <ol>
+                    <li>MemoQ</li>
+                    <li>Trados</li>
+                    <li>SmartCAT</li>
+                    <li>és az elmaradhatatlan Microsoft Office</li>
+                </ol>
+                <br>
+            </article>
+            <article>
+                <h2>Hobbik</h2>
+                <p>Na ebből van pár, csak az érdekesség kedvéért, elég vegyes felvágott.</p>
+                <ul>
+                    <li>E-commerce, még a Vatera hőskorából indulva, aukciók...</li>
+                    <li>... de ma már persze saját webshoppal is.</li>
+                    <li>Gamerkedés, ha van rá időm (nem lesz most úgy érzem egy darabig)</li>
+                    <li>Szcientológiaellenes küzdelem (jaj)</li>
+                    <li>Emberek megismerés, pszichológia.</li>
+                </ul>
+                <br>
+            </article>
+            <section>
+                <h2>Szereplés szcientológiáról szóló leleplező dokumentumfilmben</h2>
+                <p>Itt megnézhető:</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/tWNuOPEVk0U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>s
+            </section>
+            <section>
+                <h2>Kapcsolatfelvétel</h2>
+                <p>Itt tud nekem üzenetet írni:</p>
+                <form>
+                    <label for="name">Név:</label><br>
+                    <input type="text" id="name" name="name" minlength="5" required><br><br>
+                    <label for="email">E-mail-cím:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+                    <label for="text">Üzenet:</label><br>
+                    <textarea name="message" style="width:300px; height:300px;" minlength="20"
+                        required>Ide írja az üzenetet.</textarea><br><br>
+                    <input type="submit" value="Üzenet elküldése"><br><br>
+                </form>
+            </section>
     </main>
     <footer>
         <button class="button" onclick="window.location.href='#top'">Vissza az oldal tetejére</button>
     </footer>
 </body>
+
 </html>
